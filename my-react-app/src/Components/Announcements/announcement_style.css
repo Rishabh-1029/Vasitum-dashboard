@@ -1,0 +1,147 @@
+.Main-Acard {
+  border: 2px #e0e0e0 solid;
+  width: 620px;
+  height: 400px;
+  margin-left: 51px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Announcements title */
+
+.announce_title_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #161e54;
+  font-weight: bold;
+}
+
+/* Scroll bar  */
+
+.announcement-container {
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: inset 0 7px 9px -7px rgba(0, 0, 0, 0.229),
+    inset 0 -7px 9px -7px rgba(0, 0, 0, 0.229);
+}
+
+/* announcement cards */
+
+.A-card {
+  border: 2px #e0e0e0 solid;
+  width: 560px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 8px 12px;
+  border-radius: 10px;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+
+/* Pin menu icon */
+
+.menu_Announcement {
+  margin: 22px 16px 22px;
+  color: #b2b2b2;
+}
+
+.menu_Announcement {
+  margin: 22px 16px 22px;
+  color: #b2b2b2;
+  font-size: 24px;
+}
+.pin:hover {
+  color: #686868;
+}
+
+/* Content */
+
+.A-content {
+  width: 405px;
+  height: auto;
+  padding-bottom: 4px;
+}
+
+.A_title {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #303030;
+  font-weight: bold;
+}
+
+.A_duration {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #686868;
+}
+
+/* All announcement */
+
+.All_announcement {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: auto;
+  height: 39px;
+  border-top: #e0e0e0 2px solid;
+  flex-shrink: 0;
+}
+
+.All_announcement > button {
+  color: #ff5151;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 9.5px;
+  cursor: pointer;
+}
+
+/* TAB view */
+
+@media only screen and (min-width: 391px) and (max-width: 835px) {
+  .Main-Acard {
+    width: 645px;
+  }
+  .A-card {
+    width: auto;
+  }
+  .announce_title_panel {
+    padding-bottom: 4px;
+  }
+}
+
+/* Mobile view */
+@media only screen and (min-width: 0px) and (max-width: 391px) {
+  .Main-Acard {
+    width: 365px;
+    height: 340px;
+    margin-left: 20px;
+  }
+  .A-card {
+    width: auto;
+    height: 64px;
+  }
+  .A_title {
+    font-size: 12px;
+  }
+  .menu_Announcement {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,89 @@
+/* MAIN CARD */
+.dashcard_main {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 0px;
+  width: 640px;
+}
+
+/* INDIVIDUAL CARD */
+
+.card {
+  height: 136px;
+  width: 172px;
+  padding: 12px 12px 12px 20px;
+  margin-right: 14px;
+  border-radius: 10px;
+}
+
+.title {
+  color: #161e54;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.qty {
+  color: #161e54;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.fixed_text {
+  color: #ff5151;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+/* DASHBOARD TITLE */
+
+#dash_title {
+  width: 640px;
+  height: 62px;
+  font-size: 24px;
+  color: #161e54;
+  font-family: "Poppins", sans-serif;
+  margin-top: 12px;
+  margin-left: 51px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* TAB view */
+
+@media only screen and (min-width: 390px) and (max-width: 835px) {
+  .dashcard_main {
+    width: 680px;
+  }
+  .card {
+    padding: 12px 14.7px 12px 20px;
+  }
+}
+
+/* Mobile view */
+
+@media only screen and (min-width: 0px) and (max-width: 391px) {
+  #dash_title {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    width: 390px;
+  }
+  .card {
+    height: 140px;
+    width: 330px;
+    padding: 12px 12px 12px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  .dashcard_main {
+    display: unset;
+    width: 390px;
+  }
+}

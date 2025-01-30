@@ -1,0 +1,137 @@
+.NavBar-main {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  width: 1200px;
+}
+
+/* SEARCH BAR */
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 343px;
+  height: 44px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  position: relative;
+  margin-top: 23px;
+  margin-left: 51px;
+}
+
+.search-icon {
+  display: block;
+}
+
+.search-bar input[type="text"] {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+  padding-right: 142px;
+  margin-left: 4px;
+}
+
+.search-icon {
+  cursor: pointer;
+  margin: auto;
+  padding-right: 6px;
+}
+
+/* Profile BAR */
+
+.Profile-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 440px;
+  width: 364px;
+}
+
+.Profile-bar > a > svg {
+  width: auto;
+  height: auto;
+  margin-right: 33px;
+  color: #686868;
+}
+
+.Profile-bar > a > svg:hover {
+  color: #ff5151;
+}
+
+.Profile-bar > p {
+  color: #161e54;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 24px;
+  font-weight: bold;
+}
+
+/* TAB VIEW */
+
+@media only screen and (min-width: 391px) and (max-width: 835px) {
+  .NavBar-main {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    width: 744px;
+    margin-left: 0px;
+  }
+
+
+  /* SEARCH BAR */
+
+  .search-bar {
+    width: 343px;
+    height: 44px;
+    margin-left: 10px;
+  }
+
+  .search-bar {
+    width: 286px;
+  }
+  .search-icon {
+    margin-left: -68px;
+    overflow-x: hidden;
+  }
+
+  /* Profile BAR */
+
+  .Profile-bar {
+    margin-left: 140px;
+    width: 223px;
+  }
+
+  .Profile-bar > a > svg {
+    margin-right: 15px;
+  }
+}
+
+/* Mobile View */
+
+@media only screen and (min-width: 00px) and (max-width: 391px) {
+  .search-bar {
+    display: none;
+  }
+  .Main-menu-btn {
+    display: block;
+    margin-top: 18px;
+    margin-left: 20px;
+  }
+  .NavBar-main {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 390px;
+  }
+  .Profile-bar {
+    margin-left: 210px;
+    width: 223px;
+  }
+
+  .Profile-bar > p {
+    display: none;
+  }
+}

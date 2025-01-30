@@ -1,0 +1,162 @@
+.Main-Scard {
+  border: 2.5px #e0e0e0 solid;
+  width: 427px;
+  height: auto;
+  border-radius: 12px;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE */
+
+.Schedule_title_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 386px;
+  height: 28px;
+  margin: 21px 21px 16px 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #161e54;
+  font-size: 18px;
+}
+
+/* Scroll */
+
+.schedule_container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  height: 175px;
+  box-shadow: inset 0 6px 15px -7px rgba(0, 0, 0, 0.275),
+    inset 0 -7px 9px -7px rgba(0, 0, 0, 0.275);
+  border-radius: 8px;
+}
+
+/* Individual Card */
+
+.S-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px #e0e0e0 solid;
+  width: 387px;
+  height: auto;
+  margin: 8px 20px 9px 20px;
+  border-radius: 9px;
+  box-sizing: border-box;
+  padding-top: 2px;
+}
+
+.S-content {
+  width: 258px;
+  padding: 4px 25px 4px 15px;
+}
+
+.S_title {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #303030;
+}
+
+.S_duration {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  color: #686868;
+}
+
+.menu_Schedule {
+  font-size: 35px;
+  color: #b2b2b2;
+}
+
+/* Labels */
+
+.schecdule_title_panel > .priority_content > label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #686868;
+  margin-top: 16px;
+  margin-left: 19px;
+}
+
+.label_scedule {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #686868;
+  margin: 10px 0px 10px 19px;
+}
+
+/* Button */
+
+.new_Schedule {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.new_Schedule > button {
+  color: #ff5151;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Tab View */
+
+@media only screen and (min-width: 391px) and (max-width: 835px) {
+  .Main-Scard {
+    width: 370px;
+    height: auto;
+    margin-left: 12px;
+    margin-top: 0px;
+    padding: 6px;
+  }
+  .Schedule_title_bar {
+    width: 337px;
+    font-size: 16px;
+  }
+  .S-card {
+    width: 340px;
+    height: auto;
+  }
+  .schedule_container {
+    height: 100px;
+  }
+}
+
+/* Mobile View */
+
+@media only screen and (min-width: 0px) and (max-width: 391px) {
+  .Main-Scard {
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .Schedule_title_bar {
+    width: 308px;
+    font-size: 16px;
+  }
+  .S-card {
+    width: 310px;
+    height: 66px;
+  }
+  .schedule_container {
+    height: 100px;
+  }
+  .S_title {
+    font-size: 12px;
+  }
+}

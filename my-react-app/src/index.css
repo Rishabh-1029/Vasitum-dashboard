@@ -1,0 +1,43 @@
+.body-div {
+  display: flex;
+  width: auto;
+  height: auto;
+  /* overflow-x: hidden; */
+}
+/* html, body {
+  overflow-x: hidden;
+} */
+
+.center-align {
+  display: flex;
+}
+
+/* TAB VIEW */
+
+@media only screen and (min-width: 391px) and (max-width: 835px) {
+  .body-div {
+    width: auto;
+    height: 1194px;
+  }
+  .center-align {
+    display: unset;
+  }
+  .Extreme_right-app {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 391px) {
+
+  .body-div {
+    width: auto;
+    height: auto;
+  }
+
+  .center-align {
+    display: unset;
+  }
+  .Right-app {
+    width: 360px;
+  }
+}

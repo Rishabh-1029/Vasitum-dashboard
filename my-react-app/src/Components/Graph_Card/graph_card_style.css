@@ -1,0 +1,77 @@
+.Main-gcard {
+  display: flex;
+  margin-left: 51px;
+  width: 640px;
+  margin-top: 20px;
+}
+
+/* Card */
+
+.g-card {
+  border: 2px #e0e0e0 solid;
+  display: flex;
+  justify-content: space-between;
+  width: 312px;
+  height: 190px;
+  margin-right: 16px;
+  border-radius: 10px;
+  padding-right: 4px;
+}
+
+/* Image */
+
+.data_graph {
+  margin-top: 34.5px;
+  margin-left: 10.5px;
+}
+
+/* Data written on card */
+
+.dataPart {
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Content */
+
+#g_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#g_qty {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#g_male {
+  font-size: 12px;
+  color: #686868;
+}
+
+/* Tab View */
+
+@media only screen and (min-width: 391px) and (max-width: 835px) {
+  .Main-gcard {
+    width: 665px;
+  }
+}
+
+/* Mobile view */
+
+@media only screen and (min-width: 00px) and (max-width: 391px) {
+  .Main-gcard {
+    display: unset;
+    margin-top: 0px;
+  }
+  .g-card {
+    height: 190px;
+    width: 330px;
+    padding: 12px 12px 12px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+}

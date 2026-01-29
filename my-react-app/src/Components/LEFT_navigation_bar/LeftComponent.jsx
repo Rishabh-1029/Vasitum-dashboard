@@ -14,24 +14,22 @@ function Left() {
 
         <div className="Left-Logo">
           <br></br>
-          <img src=".\\public\\assets\\vasi_logo.png" className="vasi-logo" />
-          <img src=".\\public\\assets\\logo_text.png" className="logo_text" />
+          <img src="./public/assets/vasi_logo.png" className="vasi-logo" />
+          <img src="./public/assets/logo_text.png" className="logo_text" />
           <div className="Main-menu-btn-c" onClick={toggleSidebar}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24px"
-            height="24px"
-            viewBox="0 0 24 24"
-          >
-            <path
-              fill="currentColor"
-              d="M21 18H3v-2h18v2Zm0-5H3v-2h18v2Zm0-5H3V6h18v2Z"
-            ></path>
-          </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M21 18H3v-2h18v2Zm0-5H3v-2h18v2Zm0-5H3V6h18v2Z"
+              ></path>
+            </svg>
+          </div>
         </div>
-        </div>
-
-
 
         {/* MAIN MENU */}
 
@@ -50,7 +48,9 @@ function Left() {
                   d="M3 13h8V3H3zm0 8h8v-6H3zm10 0h8V11h-8zm0-18v6h8V3z"
                 ></path>
               </svg>
-              <div className={`icon_text ${isSidebarOpen ? "open" : "closed"}`}>Dashboard</div>
+              <div className={`icon_text ${isSidebarOpen ? "open" : "closed"}`}>
+                Dashboard
+              </div>
             </p>
           </a>
 

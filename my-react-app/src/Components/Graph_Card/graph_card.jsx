@@ -4,13 +4,13 @@ const Data = [
     title: "Total Employees",
     male: 120,
     female: 96,
-    img: ".//public//assets//emp_graph.png",
+    img: "./public/assets/emp_graph.png",
   },
   {
     title: "Total Request",
     male: 6,
     female: 15,
-    img: ".//public//assets//req_graph.png",
+    img: "./public/assets/req_graph.png",
   },
 ];
 

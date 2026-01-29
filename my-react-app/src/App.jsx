@@ -1,10 +1,10 @@
-import Left from ".\\Components\\LEFT_navigation_bar\\LeftComponent.jsx";
-import Navbar from ".\\Components\\Navigation_bar\\Navbar.jsx";
-import Card from ".\\Components\\Dashboard\\dashboard_card.jsx";
-import GCard from ".\\Components\\Graph_Card\\graph_card.jsx";
-import Acard from ".\\Components\\Announcements\\announcement.jsx";
-import Recent from ".\\Components\\Recent\\recent_activity.jsx";
-import Schedule from ".\\Components\\Schedule\\schedule.jsx";
+import Left from "./Components/LEFT_navigation_bar/LeftComponent.jsx";
+import Navbar from "./Components/Navigation_bar/Navbar.jsx";
+import Card from "./Components/Dashboard/dashboard_card.jsx";
+import GCard from "./Components/Graph_Card/graph_card.jsx";
+import Acard from "./Components/Announcements/announcement.jsx";
+import Recent from "./Components/Recent/recent_activity.jsx";
+import Schedule from "./Components/Schedule/schedule.jsx";
 import "./index.css";
 
 function App() {

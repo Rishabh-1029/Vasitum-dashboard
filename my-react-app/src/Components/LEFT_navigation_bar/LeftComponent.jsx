@@ -14,8 +14,8 @@ function Left() {
 
         <div className="Left-Logo">
           <br></br>
-          <img src="./public/assets/vasi_logo.png" className="vasi-logo" />
-          <img src="./public/assets/logo_text.png" className="logo_text" />
+          <img src="./assets/vasi_logo.png" className="vasi-logo" />
+          <img src="./assets/logo_text.png" className="logo_text" />
           <div className="Main-menu-btn-c" onClick={toggleSidebar}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
